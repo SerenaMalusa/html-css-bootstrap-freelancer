@@ -26,14 +26,21 @@
 }
 
 /**********
-    BODY
+    MAIN
 **********/
-#body section:nth-of-type(odd) {
+#main section:nth-of-type(odd) {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
-#body .section:nth-of-type(even) {
+#main section:nth-of-type(even) {
     background-color: var(--secondary-color);
     color: var(--teriary-color);
+}
+
+/**********
+    FOOTER
+**********/
+#footer {
+    background-color: var(--teriary-color);
 }
