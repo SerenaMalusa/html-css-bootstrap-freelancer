@@ -1,4 +1,4 @@
-## Esercizio di oggi: Bootstrap Freelancer
+## Esercizio di oggi (18/12/2023): Bootstrap Freelancer
 
 nome repo: `html-css-bootstrap-freelancer`
 
