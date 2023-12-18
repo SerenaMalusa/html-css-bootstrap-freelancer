@@ -41,6 +41,10 @@
 /**********
     FOOTER
 **********/
-#footer {
+#footer section:first-child {
     background-color: var(--teriary-color);
+}
+
+#footer section:last-child {
+    background-color: #233241;
 }
