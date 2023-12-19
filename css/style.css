@@ -38,6 +38,17 @@
     color: var(--tertiary-color);
 }
 
+#main .divider__bar {
+    height: 3px;
+    width: 50px;
+    background-color: var(--secondary-color);
+}
+
+/** HERO  **/
+#hero .section__img {
+    width: 250px;
+}
+
 /**********
     FOOTER
 **********/
