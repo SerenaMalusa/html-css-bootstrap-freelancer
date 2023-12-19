@@ -123,11 +123,22 @@
                 </div>
             </section>
 
-            <section id="contacts">
+            <section class="text-center" id="contacts">
                 <div class="container-md py-5">
-                    <h2 class="section__title mb-3 text-center text-uppercase debug">title</h2>
-                    <div class="section__divider mb-3 text-center debug">star</div>
-                    <form action="#" class="section__form col-8 mb-3 mx-auto debug">
+                    <h2 class="section__title text-uppercase fw-bold mb-3">contact me</h2>
+                    <div class="section__divider mb-3 col-6 mx-auto">
+                        <span class="divider__bar col-3 d-inline-block mb-2"></span>
+                        <i class="divider__star fs-3 mx-1 fa-solid fa-star"></i>
+                        <span class="divider__bar col-3 d-inline-block mb-2"></span>
+                    </div>
+                    <form class="section__form col-8 mb-3 mx-auto text-start" action="https://learning.tizianonicolai.com/request-catcher/" method="GET">
+                    
+                        <input class="col-12 text-capitalize border-bottom pt-2 pb-3" type="text" name="name" id="name" placeholder="name">
+                        <input class="col-12 text-capitalize border-bottom pt-2 pb-3" type="email" name="email" id="email" placeholder="email address">
+                        <input class="col-12 text-capitalize border-bottom pt-2 pb-3" type="tel" name="phone_number" id="phone_number" placeholder="phone number">
+                        <input class="col-12 text-capitalize border-bottom pt-3 pb-5" type="text" name="message" id="message" placeholder="message">
+
+                        <input class="form__button btn text-white text-capitalize px-3 py-2 mt-2 " type="submit" value="send">
                     </form>
                 </div>
             </section>
