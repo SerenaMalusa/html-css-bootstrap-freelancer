@@ -79,3 +79,15 @@ img {
 #footer section:last-child {
     background-color: #233241;
 }
+
+/** FOOTER INFO **/
+#footer__info .footer__social {
+    width: 40px;
+    aspect-ratio: 1;
+    line-height: 38px;
+}
+
+/** COPYRIGHT **/
+#copyright {
+    font-size: 0.8rem;
+}
