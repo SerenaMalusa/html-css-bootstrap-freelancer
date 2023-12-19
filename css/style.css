@@ -7,8 +7,6 @@
     --tertiary-color: #2c3e50;
 }
 
-
-
 /**********
     DEBUG
 **********/
@@ -17,6 +15,13 @@
     min-height: 50px;
 }
 
+/**********
+    RESET
+**********/
+
+img {
+    max-width: 100%;
+}
 
 /**********
     HEADER
@@ -38,10 +43,15 @@
     color: var(--tertiary-color);
 }
 
+/* divider bar */
 #main .divider__bar {
     height: 4px;
     /* width: 50px; */
     background-color: var(--secondary-color);
+}
+
+#main section:nth-of-type(even) .divider__bar {
+    background-color: var(--tertiary-color);
 }
 
 /** HERO  **/
